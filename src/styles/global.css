@@ -2,3 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+.theme {
+  @apply bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-300;
+  @apply border-gray-300 dark:border-gray-600;
+}
+
+body {
+  @apply theme;
+}
+
+h1 {
+  @apply text-3xl font-semibold;
+}
+
+h2 {
+  @apply text-xl font-bold;
+}
+
+.link-button {
+  @apply px-4 py-2 flex items-center gap-1 font-semibold text-white;
+}
+
+.link-button[data-variant="primary"] {
+  @apply bg-pink-700 rounded-md;
+}
+
+.link-button[data-variant="secondary"] {
+  @apply bg-transparent;
+}
