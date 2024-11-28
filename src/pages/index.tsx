@@ -21,7 +21,7 @@ const IndexPage: FC<PageProps> = () => {
             Tech Lead
           </h2>
           <h2>
-            Senior Front End / Full Stack Web Engineer
+            Senior Front End & Full Stack Web Engineer
           </h2>
           <h2>
             Software Engineering Consultant
