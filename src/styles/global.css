@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .theme {
-  @apply bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-300;
+  @apply bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-300;
   @apply border-gray-300 dark:border-gray-600;
 }
 
@@ -20,11 +20,11 @@ h2 {
 }
 
 .link-button {
-  @apply px-4 py-2 flex items-center gap-1 font-semibold text-white;
+  @apply px-4 py-2 flex items-center gap-1 font-semibold text-white hover:text-gray-200;
 }
 
 .link-button[data-variant="primary"] {
-  @apply bg-pink-700 rounded-md;
+  @apply bg-rose-700 hover:bg-rose-600 rounded-md;
 }
 
 .link-button[data-variant="secondary"] {
