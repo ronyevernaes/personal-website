@@ -10,14 +10,14 @@ type Props = {
 
 export const MainLayout: FC<Props> = ({ title, children }) => (
   <div
-    className="flex flex-col justify-between items-center h-screen gap-8 px-0 md:px-8"
+    className="flex flex-col justify-between items-center h-screen gap-8 px-4 md:px-8"
   >
     <Header>{title}</Header>
 
     {children}
 
     <Footer>
-      {new Date().getFullYear()} &copy; All rights reserved
+      {new Date().getFullYear()} &copy;
     </Footer>
   </div>
 );

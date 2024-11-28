@@ -16,11 +16,19 @@ h1 {
 }
 
 h2 {
-  @apply text-xl font-bold;
+  @apply text-2xl font-bold;
+}
+
+h3 {
+  @apply text-xl font-semibold;
+}
+
+h4 {
+  @apply text-lg font-semibold;
 }
 
 .link-button {
-  @apply px-4 py-2 flex items-center gap-1 font-semibold text-white hover:text-gray-200;
+  @apply px-4 py-2 flex items-center gap-2 font-semibold text-white hover:text-gray-300;
 }
 
 .link-button[data-variant="primary"] {

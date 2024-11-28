@@ -15,20 +15,20 @@ import { LinkButton } from "../components/ui";
 const IndexPage: FC<PageProps> = () => {
   return (
     <MainLayout title={"I'm Ronye Vernaes;"}>
-      <div className="w-full md:w-1/2 flex flex-col gap-4">
-        <div className="text-center">
-          <h2>
-            Tech Lead
-          </h2>
+      <div className="w-full md:w-1/2 flex flex-col gap-12">
+        <div className="flex flex-col gap-2 text-center">
           <h2>
             Senior Front End & Full Stack Web Engineer
           </h2>
-          <h2>
-            Software Engineering Consultant
-          </h2>
+          <h3>
+            Tech Lead, Remote & Agile Management
+          </h3>
+          <h4>
+            JavaScript, TypeScript, ReactJS, NextJS, NodeJS, ExpressJS, NestJS
+          </h4>
         </div>
 
-        <div>
+        <div className="text-center md:text-left">
           Experienced software engineer with a proven track record in working with
           cross-functional teams, taking ownership and leading remote teams and
           products in dynamic, highly uncertain and fast-paced settings. Excellent
@@ -37,8 +37,8 @@ const IndexPage: FC<PageProps> = () => {
           product development from concept to deployment.
         </div>
 
-        <div className="flex flex-col items-center gap-12 pt-8">
-          <div className="flex gap-4">
+        <div className="flex flex-col items-center gap-12">
+          <div className="flex flex-col md:flex-row gap-2 md:gap-4 items-center">
             <LinkButton
               href="https://github.com/ronyevernaes/"
               target="_blank"
