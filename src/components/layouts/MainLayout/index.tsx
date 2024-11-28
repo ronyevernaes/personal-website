@@ -17,7 +17,7 @@ export const MainLayout: FC<Props> = ({ title, children }) => (
     {children}
 
     <Footer>
-      {new Date().getFullYear()} &copy;
+      -
     </Footer>
   </div>
 );
